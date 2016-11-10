@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RecklessConfidence
+  m_Controller: {fileID: 9100000, guid: 9a1e16b9ba520d945bc4a98a71e523d2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fd1e28b09a8fe9143a8da587d34edd6a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e0589845b0370b340a6459b17fd76bb4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: daa4b612e6809194cabfbb5150ea22bf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: caac79a0732ddb54b9a10e78f01e9077, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d061a3ff793ecf4bb144673d6d61f8b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9d061a3ff793ecf4bb144673d6d61f8b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e714b150d56ad3947bb548c866313aae, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 96a17f546ab9b9d4fb6b6015ee48eb07, type: 2}

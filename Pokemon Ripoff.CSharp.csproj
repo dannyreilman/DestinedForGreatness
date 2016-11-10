@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE846D5B-4870-F263-EC58-F868CD3694E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.4.2f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Pokemon Ripoff.CSharp.Plugins.csproj">
+      <Project>{1454D72D-0EEF-493E-5EA6-3F54CA8E75A5}</Project>
+      <Name>Pokemon Ripoff.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ArmorAnimatorHandle.cs" />
+    <Compile Include="Assets\ArmorHealthLeftScript.cs" />
+    <Compile Include="Assets\CameraPhysics.cs" />
+    <Compile Include="Assets\CancelableAttackHandler.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\Base Types\DialogueElement.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\Base Types\Text Element.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\EndBehaviours\LinkDialogueContinue.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\EndBehaviours\StartBattle.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\HelperClasses\BeginDialogue.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\HelperClasses\EndBehaviour.cs" />
+    <Compile Include="Assets\Dialogue\Scripts\RollingText.cs" />
+    <Compile Include="Assets\FloatingNumberDestroyScript.cs" />
+    <Compile Include="Assets\Scripts\AI\AI.cs" />
+    <Compile Include="Assets\Scripts\ActivateOnClick.cs" />
+    <Compile Include="Assets\Scripts\AddToSoundHandler.cs" />
+    <Compile Include="Assets\Scripts\Buffs\BuffBar.cs" />
+    <Compile Include="Assets\Scripts\Buffs\BuffHolder.cs" />
+    <Compile Include="Assets\Scripts\Buffs\UntargetableTillAttack.cs" />
+    <Compile Include="Assets\Scripts\ChangeLocationScript.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\AttackAnimatorManager.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\Barfill.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\CardController.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\CardManager.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\Character.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\ConstantMovement.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\EmptyCharacter.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\PlaceholderCharacter.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\ShadowZScaling.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\WeakOpponent.cs" />
+    <Compile Include="Assets\Scripts\CharacterBased\Zphysics.cs" />
+    <Compile Include="Assets\Scripts\CinematicEffectsAdder.cs" />
+    <Compile Include="Assets\Scripts\ControlAspectRatio.cs" />
+    <Compile Include="Assets\Scripts\CooldownBarHandler.cs" />
+    <Compile Include="Assets\Scripts\CooldownHandlerino.cs" />
+    <Compile Include="Assets\Scripts\DamageMarkerScript.cs" />
+    <Compile Include="Assets\Scripts\EndOfEntrance.cs" />
+    <Compile Include="Assets\Scripts\EntryZoom.cs" />
+    <Compile Include="Assets\Scripts\LowerFilling.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\BattleLoaderScript.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\BattleManagerScript.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\DialogueHandler.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\EternalBeingScript.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\InputReciever.cs" />
+    <Compile Include="Assets\Scripts\ManagementScripts\SettingsManager.cs" />
+    <Compile Include="Assets\Scripts\MapInfoController.cs" />
+    <Compile Include="Assets\Scripts\MassAudioChange.cs" />
+    <Compile Include="Assets\Scripts\MimicScript.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PrefabPuller.cs" />
+    <Compile Include="Assets\Scripts\SetActive.cs" />
+    <Compile Include="Assets\Scripts\SetCooldown.cs" />
+    <Compile Include="Assets\Scripts\Shaking.cs" />
+    <Compile Include="Assets\Scripts\Types\Attack.cs" />
+    <Compile Include="Assets\Scripts\Types\AttackTarget.cs" />
+    <Compile Include="Assets\Scripts\Types\AudioBank.cs" />
+    <Compile Include="Assets\Scripts\Types\AudioPuller.cs" />
+    <Compile Include="Assets\Scripts\Types\Buff.cs" />
+    <Compile Include="Assets\Scripts\Types\BuffCarrier.cs" />
+    <Compile Include="Assets\Scripts\Types\CharacterInfo.cs" />
+    <Compile Include="Assets\Scripts\Types\Cooldown.cs" />
+    <Compile Include="Assets\Scripts\Types\CooldownHandler.cs" />
+    <Compile Include="Assets\Scripts\Types\DialogueSave.cs" />
+    <Compile Include="Assets\Scripts\Types\Effect.cs" />
+    <Compile Include="Assets\Scripts\Types\EffectLinked.cs" />
+    <Compile Include="Assets\Scripts\Types\Equipment.cs" />
+    <Compile Include="Assets\Scripts\Types\Interactable.cs" />
+    <Compile Include="Assets\Scripts\Types\Loadout.cs" />
+    <Compile Include="Assets\Scripts\Types\MapInfo.cs" />
+    <Compile Include="Assets\Scripts\Types\Movement.cs" />
+    <Compile Include="Assets\Scripts\Types\SaveLoad.cs" />
+    <Compile Include="Assets\Scripts\Types\SlotHolder.cs" />
+    <Compile Include="Assets\Scripts\Types\TagList.cs" />
+    <Compile Include="Assets\Scripts\noloop.cs" />
+    <Compile Include="Assets\Sprites\Circling.cs" />
+    <Compile Include="Assets\VertHandler.cs" />
+    <Compile Include="Assets\ZoomCopier.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\HoleShader.shader" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

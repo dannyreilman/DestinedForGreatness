@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterBased\Character.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ActivateOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Buffs\BuffBar.cs" Line="77" Column="1" />
+      <File FileName="Assets\Scripts\CharacterBased\WeakOpponent.cs" Line="165" Column="38" />
+      <File FileName="Assets\Scripts\Types\Buff.cs" Line="76" Column="1" />
+      <File FileName="Assets\Scripts\CharacterBased\Character.cs" Line="347" Column="70" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

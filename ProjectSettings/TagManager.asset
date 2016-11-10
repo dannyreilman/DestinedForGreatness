@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CardController
+  - handle
+  - BattleBackgroundImage
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Players
+  - Darkness
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1434377659
+    locked: 0
+  - name: Shadows
+    uniqueID: 3880244005
+    locked: 0
+  - name: BackRow
+    uniqueID: 4078331889
+    locked: 0
+  - name: MidRow
+    uniqueID: 1465093627
+    locked: 0
+  - name: FrontRow
+    uniqueID: 2327630631
+    locked: 0
+  - name: UI
+    uniqueID: 1526119849
+    locked: 0
+  - name: Effects
+    uniqueID: 203402411
+    locked: 0

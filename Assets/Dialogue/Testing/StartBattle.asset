@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667f7445b4c5e5e45872d2855df9804c, type: 3}
+  m_Name: StartBattle
+  m_EditorClassIdentifier: 
+  overrideMap: 1
+  mapForOverride: {fileID: 11400000, guid: e1ed10d0a9e29484891a713f5f8d8918, type: 2}
+  overrideParty: 0
+  partyForOverride:
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
+  - {fileID: 11400000, guid: 8ed9cb25a9f02fc4cadd97b5f13352e1, type: 2}
