@@ -15,16 +15,4 @@ public class CancelableAttackHandler : MonoBehaviour {
         character.CancelLoadedAttacks();
     }
 
-    public void IdleStart()
-    {
-        if(resetOnIdle)
-        {
-            Reset();
-        }
-    }
-
-    public void Reset()
-    {
-        character.mover.Reset();
-    }
 }

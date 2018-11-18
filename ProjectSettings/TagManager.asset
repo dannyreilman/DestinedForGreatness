@@ -7,6 +7,8 @@ TagManager:
   - CardController
   - handle
   - BattleBackgroundImage
+  - StageLights
+  - BarWrapper
   layers:
   - Default
   - TransparentFX

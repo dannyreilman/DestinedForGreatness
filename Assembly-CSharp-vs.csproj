@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E5B33C49-5951-1683-4AF0-70D0B027EBF2}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ArmorHealthLeftScript.cs" />
+     <Compile Include="Assets\CancelableAttackHandler.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\Base Types\DialogueElement.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\Base Types\Text Element.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\EndBehaviours\LinkDialogueContinue.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\EndBehaviours\StartBattle.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\HelperClasses\BeginDialogue.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\HelperClasses\EndBehaviour.cs" />
+     <Compile Include="Assets\Dialogue\Scripts\RollingText.cs" />
+     <Compile Include="Assets\FloatingNumberDestroyScript.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\AI\AI.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\BattleManagerScript.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Buffs\BuffBar.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Buffs\BuffHolder.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Buffs\UntargetableTillAttack.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\AttackAnimatorManager.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\CardController.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\CardManager.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\Character.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\PlaceholderCharacter.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\ResourceBarHandler.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\CharacterBased\Specific Characters\WeakOpponent.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\SingularEntity.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Entities\SlotEntity.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Movement\LinearGlide.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Movement\LocationCompounding\LocationCompounder.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Movement\LocationCompounding\LocationRule.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Movement\Movement.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\Movement\MovementType.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\StageElements\SingularSlot.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\StageElements\Slot.cs" />
+     <Compile Include="Assets\Scripts\Battle Mechanics\StageElements\WideSlot.cs" />
+     <Compile Include="Assets\Scripts\ChangeLocationScript.cs" />
+     <Compile Include="Assets\Scripts\CinematicEffectsAdder.cs" />
+     <Compile Include="Assets\Scripts\ControlAspectRatio.cs" />
+     <Compile Include="Assets\Scripts\CooldownBarHandler.cs" />
+     <Compile Include="Assets\Scripts\CooldownHandlerino.cs" />
+     <Compile Include="Assets\Scripts\DamageMarkerScript.cs" />
+     <Compile Include="Assets\Scripts\EndOfEntrance.cs" />
+     <Compile Include="Assets\Scripts\EntryZoom.cs" />
+     <Compile Include="Assets\Scripts\General\ActivateOnClick.cs" />
+     <Compile Include="Assets\Scripts\General\AddToSoundHandler.cs" />
+     <Compile Include="Assets\Scripts\General\ManagementScripts\BattleLoaderScript.cs" />
+     <Compile Include="Assets\Scripts\General\ManagementScripts\DialogueHandler.cs" />
+     <Compile Include="Assets\Scripts\General\ManagementScripts\EternalBeingScript.cs" />
+     <Compile Include="Assets\Scripts\General\ManagementScripts\InputReciever.cs" />
+     <Compile Include="Assets\Scripts\General\ManagementScripts\PrefabPuller.cs" />
+     <Compile Include="Assets\Scripts\General\ManagementScripts\SettingsManager.cs" />
+     <Compile Include="Assets\Scripts\General\MassAudioChange.cs" />
+     <Compile Include="Assets\Scripts\MimicScript.cs" />
+     <Compile Include="Assets\Scripts\Overworld Mechanics\Player.cs" />
+     <Compile Include="Assets\Scripts\SetActive.cs" />
+     <Compile Include="Assets\Scripts\SetCooldown.cs" />
+     <Compile Include="Assets\Scripts\Shaking.cs" />
+     <Compile Include="Assets\Scripts\Types\Attack.cs" />
+     <Compile Include="Assets\Scripts\Types\AudioBank.cs" />
+     <Compile Include="Assets\Scripts\Types\AudioPuller.cs" />
+     <Compile Include="Assets\Scripts\Types\Buff.cs" />
+     <Compile Include="Assets\Scripts\Types\BuffCarrier.cs" />
+     <Compile Include="Assets\Scripts\Types\CharacterInfo.cs" />
+     <Compile Include="Assets\Scripts\Types\Cooldown.cs" />
+     <Compile Include="Assets\Scripts\Types\CooldownHandler.cs" />
+     <Compile Include="Assets\Scripts\Types\DialogueSave.cs" />
+     <Compile Include="Assets\Scripts\Types\Effect.cs" />
+     <Compile Include="Assets\Scripts\Types\EffectLinked.cs" />
+     <Compile Include="Assets\Scripts\Types\Equipment.cs" />
+     <Compile Include="Assets\Scripts\Types\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Types\Loadout.cs" />
+     <Compile Include="Assets\Scripts\Types\MapInfo.cs" />
+     <Compile Include="Assets\Scripts\Types\SaveLoad.cs" />
+     <Compile Include="Assets\Scripts\Types\TagList.cs" />
+     <Compile Include="Assets\Scripts\noloop.cs" />
+     <Compile Include="Assets\Sprites\Circling.cs" />
+     <Compile Include="Assets\VertHandler.cs" />
+     <Compile Include="Assets\ZoomCopier.cs" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\HoleShader.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

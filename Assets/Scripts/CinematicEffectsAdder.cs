@@ -9,7 +9,7 @@ public class CinematicEffectsAdder : MonoBehaviour {
 
 	void Update ()
     {
-        thisFrame = BattleManagerScript.CINEMATIC;
+        thisFrame = EternalBeingScript.CINEMATIC;
         if (lastFrame && !thisFrame)
         {
             controller.StartTransitionDown();

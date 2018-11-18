@@ -17,6 +17,6 @@ public class SetActive : MonoBehaviour {
     //Also handles cinematicness
     public void Update()
     {
-        gameObject.GetComponent<Image>().enabled = !BattleManagerScript.CINEMATIC;
+        gameObject.GetComponent<Image>().enabled = !EternalBeingScript.CINEMATIC;
     }
 }

@@ -1,17 +1,17 @@
-﻿using UnityEngine;
+﻿//Mapinfo gives information about how the slots line up on the image
+//All doubles represent percentages of the screen, not pixels
+//For instance a skyline of 0.5 will make the sky go halfway down the screen, a skyline of 0.1 will only go 10% down
+using UnityEngine;
 
 [System.Serializable]
 [CreateAssetMenu()]
 public class MapInfo :ScriptableObject{
     public Sprite MapImage;
 
-    public Vector2 friendlyFront;
-    public Vector2 friendlyTopWing;
-    public Vector2 friendlyBottomWing;
-    public Vector2 friendlyBack;
-
-    public Vector2 enemyFront;
-    public Vector2 enemyTopWing;
-    public Vector2 enemyBottomWing;
-    public Vector2 enemyBack;
+    public double skyline;
+    public double groundLine;
+    public double frontlineLine;
+    public double backlineLine;
+    public double topWingLine;
+    public double bottomWingLine;
 }

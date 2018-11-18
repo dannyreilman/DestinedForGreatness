@@ -69,6 +69,8 @@ public class Buff : EffectLinked
 
     public virtual void CalcIncAttack(ref Attack a) { }
     public virtual void CalcOutAttack(ref Attack a) { }
+    public virtual void CalcIncAssist(ref Attack a) { }
+    public virtual void CalcOutAssist(ref Attack a) { }
 
 
     protected virtual void OnDestroyed()

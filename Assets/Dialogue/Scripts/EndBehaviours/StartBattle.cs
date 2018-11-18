@@ -22,7 +22,7 @@ namespace RPGDialogue
         {
             EternalBeingScript.instance.dialogueInst.EndDialogue();
             //TODO: implement auto detection of party and location for map (Do this later once the overworld works)
-            EternalBeingScript.instance.battleInst.LoadBattle(mapForOverride, partyForOverride, enemies);
+            EternalBeingScript.instance.battleInst.StartBattle(mapForOverride, partyForOverride, enemies);
         }
     }
 }

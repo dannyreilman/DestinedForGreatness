@@ -6,8 +6,9 @@ public class Attack : EffectLinked {
     public const int NO_DAMAGE_TYPE = 0;
     public const int TRUE_DAMAGE = 1;
 
-    public float damage, armorIgnoreFlat, armorIgnorePercent, resistIgnoreFlat, resistIgnorePercent, knockback;
-    public int origin,target;
+    public float damage, armorIgnoreFlat, armorIgnorePercent, resistIgnoreFlat, resistIgnorePercent;
+    public Vector2 knockback;
+    public SlotEntity target;
     public Character characterOrigin;
     public bool crit, hurting, side, superHurting;
     public string tag = "untagged";
@@ -17,9 +18,8 @@ public class Attack : EffectLinked {
     public Attack(float damage, Character origin)
     {
         this.damage = damage;
-        this.origin = origin.index;
         characterOrigin = origin;
-        knockback = 0;
+        knockback = Vector2.zero;
         armorIgnoreFlat = 0;
         armorIgnorePercent = 0;
         resistIgnoreFlat = 0;
@@ -72,7 +72,6 @@ public class Attack : EffectLinked {
     //Does another attack on the same target
     public void MimicAttack(Attack mimic)
     {
-        mimic.origin = origin;
-        characterOrigin.DealAttack(target, mimic);
+        target.TakeAttack(mimic);
     }
 }

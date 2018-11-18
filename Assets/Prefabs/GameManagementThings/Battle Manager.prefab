@@ -5,10 +5,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 421664}
-  - 114: {fileID: 11426884}
+  - component: {fileID: 421664}
+  - component: {fileID: 114931089224098824}
   m_Layer: 0
   m_Name: Battle Manager
   m_TagString: Untagged
@@ -25,42 +25,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.5608552, y: -1.1626554, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11426884
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7342c4cb4ac96d54c8d610ce373ff745, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  friendlies:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  enemies:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  Placeholder: {fileID: 140884, guid: 85574498a9901834caecc60aa36c80f2, type: 2}
-  inputReciever: {fileID: 0}
-  info:
-    friendlyFront: {x: 0, y: 0}
-    friendlyTopWing: {x: 0, y: 0}
-    friendlyBottomWing: {x: 0, y: 0}
-    friendlyBack: {x: 0, y: 0}
-    enemyFront: {x: 0, y: 0}
-    enemyTopWing: {x: 0, y: 0}
-    enemyBottomWing: {x: 0, y: 0}
-    enemyBack: {x: 0, y: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -104,3 +72,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 114298}
   m_IsPrefabParent: 1
+--- !u!114 &114931089224098824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cde61dd1b813084bbac894841581694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputReciever: {fileID: 0}
+  prefabInst: {fileID: 0}
+  loadedInfo: {fileID: 0}
